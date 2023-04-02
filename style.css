@@ -10,7 +10,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: lightskyblue;
+    background: #28adff;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -22,7 +23,7 @@ body {
     transition: height 0.2s ease;
 }
 
-.wrapper.active{
+.wrapper.active {
     height: 530px;
 }
 
@@ -60,7 +61,7 @@ header p {
     cursor: pointer;
     margin-top: 20px;
     font-size: 17px;
-    background-color: lightskyblue;
+    background-color: #28adff;
 }
 
 .wrapper .qr-code {
@@ -74,7 +75,7 @@ header p {
     border-radius: 5px;
 }
 
-.wrapper.active .qr-code{
+.wrapper.active .qr-code {
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.5s 0.05s ease;
